@@ -17,6 +17,7 @@ export default {
                   { path: '/dashboard/workplace', component: 'Dashboard/Workplace' }
                 ]
             },
+            { path: 'list', component: 'list' },
         ]
     }],
 
