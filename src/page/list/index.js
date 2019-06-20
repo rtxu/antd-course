@@ -8,6 +8,7 @@ const namespace = 'cards';
 function mapStateToProps(state) {
   return {
     cardsList: state.cards.cardsList,
+    // loading 由 dva-loading 注入，表示请求状态
     cardsLoading: state.loading.effects[`${namespace}/queryList`],
   };
 }
